@@ -21,8 +21,8 @@
   <body id="body-part">
     <div class="container-fluid">
         <div class="row flex-nowrap">
-          <div class=" col-auto col-xl-2 col-md-2 px-sm-2 px-0 bg-info shadow ">
-            <div class="d-flex flex-column align-items-center px-3 pt-2 min-vh-100 Header_section">
+          <div class=" col-auto  px-sm-2 px-0">
+            <div class="min-vh-100 Header_section">
               <a href="#" class="d-flex align-items-center fw-bold pb-3 pt-3 text-dark text-decoration-none">
                 <span class="fs-4 ">Menu</span>
               </a>
@@ -146,25 +146,26 @@
                     </a>
                 </li>
               </ul> 
+            <!---------------Log-out-section------->
+              <div class=" pt-4 ">
+                <a href="#" class="d-flex  justify-content-center align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-regular fa-user"></i>
+                  <!--<img src="" alt="hugenerd" width="30" height="30" class="rounded-circle">-->
+                    <span class="d-none d-sm-inline mx-1 fw-bold">Person Name</span>
+                </a>
+                <ul class="dropdown-menu mx-5 dropdown-menu-dark opacity-50 text-small shadow" aria-labelledby="dropdownUser1">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+              </div>
+            <!---------------Log-out-section------->
             </div>
-              <!---------------Log-out-section------->
-                  <div class=" pb-4 ">
-                    <a href="#" class="d-flex  justify-content-center align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fa-regular fa-user"></i>
-                      <!--<img src="" alt="hugenerd" width="30" height="30" class="rounded-circle">-->
-                        <span class="d-none d-sm-inline mx-1 fw-bold">Person Name</span>
-                    </a>
-                    <ul class="dropdown-menu mx-5 dropdown-menu-dark opacity-50 text-small shadow" aria-labelledby="dropdownUser1">
-                        <li><a class="dropdown-item" href="#">New project...</a></li>
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                    </ul>
-                  </div>
-              <!---------------Log-out-section------->
+              
           </div>
           <!------------------//-Content-page-section-//----------------->
             
@@ -256,7 +257,7 @@
                       
                       <div class="card mt-2 border-0 shadow">
                         <div class="table-responsive">
-                          <table class="table table-striped border-0">
+                          <table class="table table-borderless">
                             <thead>
                               <tr class="Table_design">
                                 <th scope="col">No.</th>

@@ -27,17 +27,16 @@ body
 
 /*---------------body-section-End----------*/
 
-.header
+.Header_section
 {
-    width: 100%;
+    padding-left: 1rem;
     height: var(--header-height);
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0 1rem;
-    
     z-index: var(--z-fixed);
-    transition: .5s
+    transition: .5s;
+    background-color: #b7f3f3;
 }
 
 /*------------------//-Content-page-section-//-----------------*/
@@ -75,9 +74,9 @@ body
 .Table_design:hover
 {
     background-color: #e0dcf8;
-
+    transform:scale(1.01);
     color: black;
-    border-radius: 1rem;
+    border-radius: 2rem;
     box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
     padding: 2rem;
 }
