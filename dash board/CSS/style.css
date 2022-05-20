@@ -1,0 +1,84 @@
+
+:root
+{
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #4723D9;
+    --first-color-light: #AFA5D9;
+    --white-color: #F7F6FB;
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100
+}
+*,::before,::after
+{
+   
+    box-sizing: border-box;
+}
+
+/*---------------body-section-----------*/
+body
+    {
+        position: relative;
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        transition: .5s
+    }
+
+/*---------------body-section-End----------*/
+
+.header
+{
+    width: 100%;
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    
+    z-index: var(--z-fixed);
+    transition: .5s
+}
+
+/*------------------//-Content-page-section-//-----------------*/
+    /*----------Card-section------------*/
+    .card_Design
+            {
+                border: 0;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+    .card_Design:hover
+            {
+                border: 0;
+                background-color: #3dd39d;
+                color: white;
+               -webkit-animation:pulse 1.2s linear infinite;
+	            animation :pulse 1.2s linear infinite;
+            }
+    @keyframes pulse
+        {
+            25% {
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                }
+        
+            75% {
+                    -webkit-transform: scale(.9);
+                    transform: scale(.9);
+                }
+        }
+       
+    /*----------Card-section------------*/
+
+
+/*------------------//-Content-page-section-//-----------------*/
+.Table_design:hover
+{
+    background-color: #e0dcf8;
+
+    color: black;
+    border-radius: 1rem;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+    padding: 2rem;
+}
+
